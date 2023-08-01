@@ -9,7 +9,7 @@ import fetchData from "../helper/apiCall";
 import "../styles/user.css";
 
 
-axios.defaults.baseURL = "https://api-mediportal.onrender.com";
+axios.defaults.baseURL = "https://api-mediportal.onrender.com/api";
 
 const AdminApplications = () => {
   const [applications, setApplications] = useState([]);
